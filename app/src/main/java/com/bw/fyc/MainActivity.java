@@ -48,6 +48,7 @@ public class MainActivity extends BaseActivity {
         name.add("要闻");
         name.add("推荐");
         name.add("视频");
+        name.add("封英超");
 
         viewPager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
             @NonNull
